@@ -659,3 +659,159 @@ main {
   text-align: center;
   color: var(--white);
 }
+
+
+.time_selection {
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: var(--white) !important;
+  width: 100%;
+}
+
+
+.days_table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  font-family: arial, sans-serif;
+  color: white !important;
+}
+
+.days_td,
+.days_th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+.image_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-bottom: 1px solid var(--Steel_Blue);
+}
+
+.image_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.add_category_label {
+  color: var(--White) !important;
+}
+
+
+
+.manager {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+
+
+.btn {
+  padding: 12px;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: background-color 0.3s;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+
+.blue {
+  background-color: var(--Steel_Blue) !important;
+  color: var(--Sand) !important;
+}
+.sand {
+  background-color: var(--Sand) !important;
+  color: black !important;
+}
+
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.messages_table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100% !important;
+
+  font-family: arial, sans-serif;
+  color: white !important;
+  margin-bottom: 20px;
+
+  border: 1px solid #ddd;
+}
+
+.messages_td,
+.messages_th {
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.messages_icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+.upload_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex: 1;
+  border-radius: 8px;
+  text-align: center;
+  top: 0 !important;
+  left: 0 !important;
+  width: fit-content !important;
+  height: 100% !important;
+  min-height: 300px !important;
+  border: 2px dashed var(--primary);
+  color: white;
+  padding: 20px;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+
+
+.file-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  gap: 20px;
+}
