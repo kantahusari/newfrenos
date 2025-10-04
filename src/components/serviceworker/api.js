@@ -3,8 +3,8 @@ import store from "../store/store";
 import { logout } from "../store/storeslice";
 import { toast } from "react-toastify";
 
-// const API_BASE_URL = process.env.REACT_APP_API_URL || "https://website.com/api";
-const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:5000/api";
+ const API_BASE_URL = process.env.REACT_APP_API_URL || "https://services.friends-renos.ca/api";
+//const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:5000/api";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
